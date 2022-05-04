@@ -3,7 +3,7 @@ import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Fields from "../components/Fields";
 import Button from "../components/Button";
-import {BaseSyntheticEvent, useEffect, useState} from "react";
+import {BaseSyntheticEvent, useState} from "react";
 
 const Home: NextPage = () => {
     const [values, setValues] = useState({
