@@ -10,8 +10,8 @@ describe('Home', () => {
         const addition = screen.getByText('Addition')
         const multiplication = screen.getByText('Multiplication')
         const division = screen.getByText('Division')
-        const input1 = screen.getByRole('spinbutton:', { name: /number1/i })
-        const input2 = screen.getByRole('spinbutton:', { name: /number2/i })
+        const input1 = screen.getByRole('number', { name: /number1/i })
+        const input2 = screen.getByRole('number', { name: /number2/i })
 
         expect(addition).toBeInTheDocument()
         expect(multiplication).toBeInTheDocument()
