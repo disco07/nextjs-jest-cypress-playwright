@@ -1,7 +1,7 @@
-import React from 'react';
+import React, {BaseSyntheticEvent} from 'react';
 
 interface IButton {
-    onClick?: () => void;
+    onClick?: (e: BaseSyntheticEvent) => void;
     children: JSX.Element | string;
 }
 

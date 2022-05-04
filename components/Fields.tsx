@@ -1,11 +1,11 @@
-import React from 'react';
+import React, {BaseSyntheticEvent} from 'react';
 
 interface IFields {
     type?: string;
     name?: string;
     value?: number;
     placeholder?: string;
-    handleChange?: (e: any) => void;
+    handleChange?: (e: BaseSyntheticEvent) => void;
 }
 
 const Fields = ({type, name, value, placeholder, handleChange}: IFields) => {
