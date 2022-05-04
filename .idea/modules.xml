@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/nextjs-jest-cypress.iml" filepath="$PROJECT_DIR$/.idea/nextjs-jest-cypress.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/test-jest-cypress.iml" filepath="$PROJECT_DIR$/.idea/test-jest-cypress.iml" />
     </modules>
   </component>
 </project>
