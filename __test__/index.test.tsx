@@ -10,14 +10,12 @@ describe('Home', () => {
         const addition = screen.getByText('Addition')
         const multiplication = screen.getByText('Multiplication')
         const division = screen.getByText('Division')
-        const input1 = screen.getByRole('number', { name: /number1/i })
-        const input2 = screen.getByRole('number', { name: /number2/i })
+        const input = screen.getByPlaceholderText("Enter a number")
 
         expect(addition).toBeInTheDocument()
         expect(multiplication).toBeInTheDocument()
         expect(division).toBeInTheDocument()
-        expect(input1).toBeInTheDocument()
-        expect(input2).toBeInTheDocument()
+        expect(input).toBeInTheDocument()
     })
 
     it('should calculate operation', () => {
