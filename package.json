@@ -8,6 +8,7 @@
     "start": "next start",
     "test": "jest --watch --env=jsdom",
     "cypress": "cypress open",
+    "test:e2e": "playwright test",
     "lint": "next lint"
   },
   "dependencies": {
@@ -16,6 +17,7 @@
     "react-dom": "18.1.0"
   },
   "devDependencies": {
+    "@playwright/test": "^1.21.1",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.2.0",
     "@types/node": "17.0.31",
