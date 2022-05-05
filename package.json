@@ -7,6 +7,7 @@
     "build": "next build",
     "start": "next start",
     "test": "jest --watch --env=jsdom",
+    "cypress": "cypress open",
     "lint": "next lint"
   },
   "dependencies": {
@@ -20,6 +21,7 @@
     "@types/node": "17.0.31",
     "@types/react": "18.0.8",
     "@types/react-dom": "18.0.3",
+    "cypress": "^9.6.0",
     "eslint": "8.14.0",
     "eslint-config-next": "12.1.6",
     "jest": "^28.0.3",

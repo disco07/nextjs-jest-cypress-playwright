@@ -43,9 +43,9 @@ const Home: NextPage = () => {
                 <Fields type="number" placeholder="Enter a second number" name="number2" value={values.number2}
                         handleChange={handleChange}/>
                 <span className="result">Resultat: {finalResult}</span>
-                <Button onClick={onSubmit}>Addition</Button>
-                <Button onClick={onSubmit}>Multiplication</Button>
-                <Button onClick={onSubmit}>Division</Button>
+                <Button onClick={onSubmit} className="addition">Addition</Button>
+                <Button onClick={onSubmit} className="multiplication">Multiplication</Button>
+                <Button onClick={onSubmit} className="division">Division</Button>
             </div>
         </div>
     )
