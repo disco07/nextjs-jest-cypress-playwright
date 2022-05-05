@@ -8,7 +8,7 @@
     "start": "next start",
     "test": "jest --watch --env=jsdom",
     "cypress": "cypress open",
-    "test:e2e": "playwright test",
+    "test:e2e": "playwright test e2e/example.spec.ts",
     "lint": "next lint"
   },
   "dependencies": {
