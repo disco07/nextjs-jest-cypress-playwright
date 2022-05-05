@@ -38,11 +38,11 @@ const Home: NextPage = () => {
                 <link rel="icon" href="/favicon.ico"/>
             </Head>
             <div className={styles.main}>
-                <Fields type="number" placeholder="Enter a number" name="number1" value={values.number1}
+                <Fields type="number" placeholder="Enter a first number" name="number1" value={values.number1}
                         handleChange={handleChange}/>
-                <Fields type="number" placeholder="Enter a number" name="number2" value={values.number2}
+                <Fields type="number" placeholder="Enter a second number" name="number2" value={values.number2}
                         handleChange={handleChange}/>
-                <span>Resultat: <p className="result">{finalResult}</p></span>
+                <span className="result">Resultat: {finalResult}</span>
                 <Button onClick={onSubmit}>Addition</Button>
                 <Button onClick={onSubmit}>Multiplication</Button>
                 <Button onClick={onSubmit}>Division</Button>
